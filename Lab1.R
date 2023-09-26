@@ -159,7 +159,7 @@ b1 = coef(mreg2)[2]
 b2 = coef(mreg2)[3]
 abline(b0+b2 , b1, lwd=2, lty="dashed", col ="green")
 abline(b0, b1, lwd=2, lty="dashed",col ="blue")
-legend("topright", legend = c("Games published by Nintendo", "Games not published by Nintendo", "Nintendo Regression", "Others Regression"),
+legend("bottomleft", legend = c("Games published by Nintendo", "Games not published by Nintendo", "Nintendo Regression", "Others Regression"),
        pch = c(0, 0, NA, NA), col = c("green", "blue", "green", "blue"),
        lty = c(NA, NA, "dashed", "dashed"), lwd = c(NA, NA, 2, 2))
 
