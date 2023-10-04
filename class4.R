@@ -50,7 +50,7 @@ residualPlots(reg4)
 # area is the best. year is the worst
 # We do not want to see dot or stars - they are bad. year higher than 0.1 is bad.
 
-## variable year is not linear, Tukey test shws that entire model is not linear
+## variable year is not linear, Tukey test shows that entire model is not linear
 
 #Solution: let's rerun the model without "year" (in reg5)
 
